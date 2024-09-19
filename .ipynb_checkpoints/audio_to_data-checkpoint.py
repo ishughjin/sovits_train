@@ -40,7 +40,7 @@ def process_audio_data(
     if not check_for_existence([audio_file_list, audio_folder_path]):
         return "Error: Input files do not exist"
 
-    exp_root = "../autodl-tmp/log/"  # Define this appropriately
+    exp_root = "../temp/log/"  # Define this appropriately
     opt_dir = f"{exp_root}/{experiment_name}"
 
     try:
